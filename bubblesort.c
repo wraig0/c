@@ -1,15 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void print_array(const int *arr, size_t arr_len) {
-    for (int i = 0; i < arr_len; ++i) {
-        printf("%d",arr[i]);
-        if (i != arr_len - 1) {
-            printf(",");
-        }
-    }
-    printf("\n");
-}
+void print_array(const int *arr, size_t arr_len);
 
 int main() {
     int arr[] = {11,88,0,22,33,44,66,77,55,99};
